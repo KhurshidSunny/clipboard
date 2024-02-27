@@ -13,7 +13,29 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <h1 class="text-3xl font-semibold bg-red-300">Tailwind start</h1>
+  <body class="m-0 p-0 bg-slate-100">
+    <!-- App container -->
+    <div class="flex flex-col items-center justify-center h-full">
+      <!-- hero section -->
+      <section class="max-w-6xl max-auto mb-40 px-10 pt-16 text-center">
+        <img src="images/logo.svg" alt="" class="w-32 mx-auto my-16" />
+        <h3
+          class="text-4xl mb-8 text-center text-darkGrayishBlue font-bold md:text-5xl"
+        >
+          A history of everything you copy
+        </h3>
+        <p class="max-w-2xl text-center text-grayishBlue text-2xl mt-8 mb-10">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <!-- button container -->
+        <div
+          class="flex flex-col space-y-4 w-full justify-center md:flex-row md:space-y-0 md:space-x-4"
+        >
+          <button class="download-btn bg-strongCyan">Download for iOS</button>
+          <button class="bg-lightBlue download-btn">Download for Mac</button>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
